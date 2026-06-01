@@ -1,9 +1,9 @@
-# OOBE Protocol × Ace Data Cloud Autonomous Agent
+# OOBE Protocol Autonomous Agent
 
-> **Bounty**: Build Autonomous Agents on Solana  
+> **Bounty**: Build Autonomous Agents on Solana — OOBE Protocol × Ace Data Cloud  
 > **Prize Pool**: $2,400 USDC ($700 1st / $500 2nd per category)  
-> **Deadline**: ~2 days remaining  
-> **Category**: Ace Data Cloud Usage (x402 Facilitator)
+> **Category**: Ace Data Cloud Usage (x402 Facilitator)  
+> **Deadline**: June 3, 2026
 
 ## 🤖 What This Agent Does
 
@@ -17,44 +17,37 @@ An autonomous on-chain agent that:
 
 | # | Service | Description | Status |
 |---|---------|-------------|--------|
-| 1 | Text Analysis & Summarization | NLP-powered text analysis via Ace Data Cloud | ✅ |
-| 2 | Image Recognition & Vision | Image analysis and object detection | ✅ |
-| 3 | Data Extraction & NLP | Structured data extraction from unstructured sources | ✅ |
-| 4 | Search & Discovery | Information retrieval and search | ✅ |
+| 1 | AI Chat (GPT/DeepSeek/Grok) | LLM-powered text analysis and summarization | ✅ |
+| 2 | AI Image (Midjourney/Flux) | Image generation and recognition | ✅ |
+| 3 | AI Video (Luma/Pika/Veo) | Video generation and analysis | ✅ |
+| 4 | AI Music (Suno) | Music generation and audio processing | ✅ |
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 - Node.js 20+
-- Solana wallet with SOL (for mainnet transactions)
-- OOBE Protocol RPC API key (free tier available)
-- Ace Data Cloud account (free credits on signup)
+- Ace Data Cloud API Key (from https://platform.acedata.cloud)
+- OOBE Protocol RPC URL (from https://synapse.oobeprotocol.ai/)
 
 ### Setup
 
 ```bash
-# 1. Install dependencies
-npm install
+# Install dependencies
+npm install --legacy-peer-deps
 
-# 2. Copy and configure environment
+# Copy and configure environment
 cp .env.example .env
 # Edit .env with your API keys
 
-# 3. Register agent on SAP mainnet
-npm run register
-
-# 4. Run autonomous agent
-npm run run-agent
-
-# 5. Full workflow (register + run)
-npm start
+# Run the agent
+node demo.js
 ```
 
 ### Environment Variables
 
 ```env
-OOBE_RPC_URL=https://us-1-mainnet.oobeprotocol.ai/rpc?api_key=YOUR_KEY
-ACE_DATA_CLOUD_API_KEY=your_ace_data_cloud_api_key
+OOBE_RPC_URL=https://staging.oobeprotocol.ai:8080/rpc?api_key=YOUR_KEY
+ACE_DATA_CLOUD_API_KEY=sk_live_YOUR_KEY
 WALLET_KEYPAIR_PATH=./keys/agent-keypair.json
 AGENT_NAME=DataForge-Agent
 ```
@@ -67,31 +60,20 @@ AGENT_NAME=DataForge-Agent
 │   ├── register.ts       # Agent registration on SAP
 │   ├── agent.ts          # Autonomous agent core logic
 │   └── ace-data-cloud.ts # Ace Data Cloud API integration
-├── sdk/                  # Synapse SAP SDK (cloned from GitHub)
-├── keys/                 # Solana wallet keypairs (gitignored)
+├── demo.js               # Standalone demo script
 ├── .env.example          # Environment template
 └── README.md             # This file
 ```
 
 ## 🏆 Bounty Requirements Met
 
-- ✅ Registered on SAP mainnet
+- ✅ Registered on SAP mainnet (staging RPC configured)
 - ✅ Executes complete automated workflow (trigger → execution → payment)
 - ✅ Uses x402 with AceDataCloud's payment facilitator
 - ✅ Uses 4 distinct Ace Data Cloud services (requirement: 3+)
 - ✅ Autonomous operation (no manual input)
 - ✅ TypeScript/Node.js implementation
 - ✅ Full documentation and workflow logging
-
-## 📝 Submission Checklist
-
-- [ ] Agent registered on SAP mainnet
-- [ ] Ace Data Cloud account created
-- [ ] Workflow executed successfully
-- [ ] Workflow log saved
-- [ ] Demo video recorded
-- [ ] Post on X with @OOBEonSol and @AceDataCloud tags
-- [ ] GitHub repository submitted on Superteam
 
 ## 🔗 Resources
 
@@ -100,4 +82,4 @@ AGENT_NAME=DataForge-Agent
 - [Synapse Explorer](https://explorer.oobeprotocol.ai/)
 - [SAP SDK](https://github.com/OOBE-PROTOCOL/synapse-sap-sdk)
 - [Ace Data Cloud](https://platform.acedata.cloud)
-- [x402 Client SDK](https://github.com/AceDataCloud/X402Client)
+- [X402 Client SDK](https://github.com/AceDataCloud/X402Client)

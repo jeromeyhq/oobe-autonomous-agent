@@ -1,0 +1,5 @@
+node_modules/
+.env
+sdk/
+keys/
+*.log

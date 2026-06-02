@@ -1,24 +1,30 @@
 {
   "name": "oobe-autonomous-agent",
   "version": "1.0.0",
-  "description": "Autonomous On-Chain Agent for OOBE Protocol × Ace Data Cloud Bounty",
+  "description": "Autonomous On-Chain Agent for OOBE Protocol × Ace Data Cloud - Superteam Bounty ($2,400 USDC)",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
-    "register": "ts-node src/register.ts",
-    "run-agent": "ts-node src/agent.ts"
+    "dev": "tsx src/index.ts",
+    "register": "tsx src/index.ts register",
+    "run-agent": "tsx src/index.ts run",
+    "full": "tsx src/index.ts full",
+    "sentinel": "tsx src/index.ts sentinel",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.0",
+    "@oobe-protocol-labs/synapse-sap-sdk": "^0.19.8",
     "@solana/web3.js": "^1.90.0",
     "axios": "^1.6.0",
-    "dotenv": "^16.3.0",
-    "typescript": "^5.3.0"
+    "dotenv": "^16.3.0"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "ts-node": "^10.9.0"
+    "@types/node": "^20.19.41",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
   }
 }

@@ -1,8 +1,375 @@
 {
   "agent": "DataForge-Agent",
-  "wallet": "6Pir9zREkXiPdAh2jpcGJibx5Se6QvyD8rGvCPcSsV9g",
-  "timestamp": "2026-06-01T09:44:57.518Z",
-  "workflows": 3,
-  "totalServices": 12,
-  "totalLatency": 7134
+  "wallet": "7vcudNHjtGvdJCrqHgwbQX6pfgZ2Z7FTQSy2PiQmcJUF",
+  "timestamp": "2026-06-02T03:19:24.174Z",
+  "results": [
+    {
+      "iteration": 1,
+      "topic": "Artificial Intelligence and Machine Learning",
+      "timestamp": "2026-06-02T03:19:17.297Z",
+      "servicesUsed": 4,
+      "totalLatency": 3284,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 1996
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "topic": "Blockchain and Web3 Infrastructure",
+      "timestamp": "2026-06-02T03:19:19.018Z",
+      "servicesUsed": 4,
+      "totalLatency": 1720,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 431
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "topic": "Autonomous Agent Systems",
+      "timestamp": "2026-06-02T03:19:20.738Z",
+      "servicesUsed": 4,
+      "totalLatency": 1719,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "topic": "Decentralized AI Services",
+      "timestamp": "2026-06-02T03:19:22.455Z",
+      "servicesUsed": 4,
+      "totalLatency": 1716,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 428
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "topic": "Solana Ecosystem Development",
+      "timestamp": "2026-06-02T03:19:24.171Z",
+      "servicesUsed": 4,
+      "totalLatency": 1716,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    }
+  ],
+  "paymentReport": [
+    {
+      "category": "escrow",
+      "service": "sap-escrow-open",
+      "amount": 0.001,
+      "timestamp": "2026-06-02T03:19:14.013Z",
+      "success": true
+    },
+    {
+      "category": "x402",
+      "service": "ace-data-cloud-workflow-1",
+      "amount": 0.004,
+      "timestamp": "2026-06-02T03:19:17.297Z",
+      "success": true
+    },
+    {
+      "category": "x402",
+      "service": "ace-data-cloud-workflow-2",
+      "amount": 0.004,
+      "timestamp": "2026-06-02T03:19:19.018Z",
+      "success": true
+    },
+    {
+      "category": "x402",
+      "service": "ace-data-cloud-workflow-3",
+      "amount": 0.004,
+      "timestamp": "2026-06-02T03:19:20.738Z",
+      "success": true
+    },
+    {
+      "category": "x402",
+      "service": "ace-data-cloud-workflow-4",
+      "amount": 0.004,
+      "timestamp": "2026-06-02T03:19:22.455Z",
+      "success": true
+    },
+    {
+      "category": "x402",
+      "service": "ace-data-cloud-workflow-5",
+      "amount": 0.004,
+      "timestamp": "2026-06-02T03:19:24.171Z",
+      "success": true
+    }
+  ],
+  "workflowLog": [
+    {
+      "iteration": 1,
+      "topic": "Artificial Intelligence and Machine Learning",
+      "timestamp": "2026-06-02T03:19:17.297Z",
+      "servicesUsed": 4,
+      "totalLatency": 3284,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 1996
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "topic": "Blockchain and Web3 Infrastructure",
+      "timestamp": "2026-06-02T03:19:19.018Z",
+      "servicesUsed": 4,
+      "totalLatency": 1720,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 431
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "topic": "Autonomous Agent Systems",
+      "timestamp": "2026-06-02T03:19:20.738Z",
+      "servicesUsed": 4,
+      "totalLatency": 1719,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "topic": "Decentralized AI Services",
+      "timestamp": "2026-06-02T03:19:22.455Z",
+      "servicesUsed": 4,
+      "totalLatency": 1716,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 430
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 428
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "topic": "Solana Ecosystem Development",
+      "timestamp": "2026-06-02T03:19:24.171Z",
+      "servicesUsed": 4,
+      "totalLatency": 1716,
+      "autonomous": true,
+      "services": [
+        {
+          "service": "search",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "text-analysis",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "data-extraction",
+          "success": false,
+          "latency": 429
+        },
+        {
+          "service": "image-recognition",
+          "success": false,
+          "latency": 429
+        }
+      ]
+    },
+    {
+      "phase": "sentinel",
+      "timestamp": "2026-06-02T03:19:24.174Z",
+      "servicesCalled": 3,
+      "results": [
+        {
+          "service": "sentinel:agent-health",
+          "success": false,
+          "latency": 1
+        },
+        {
+          "service": "sentinel:tool-validation",
+          "success": true,
+          "latency": 0
+        },
+        {
+          "service": "sentinel:monitor",
+          "success": false,
+          "latency": 1
+        }
+      ]
+    }
+  ]
 }
